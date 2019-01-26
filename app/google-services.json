@@ -1,0 +1,73 @@
+{
+  "project_info": {
+    "project_number": "602243080736",
+    "firebase_url": "https://tasty-e2e81.firebaseio.com",
+    "project_id": "tasty-e2e81",
+    "storage_bucket": "tasty-e2e81.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602243080736:android:2a8d52d43ff44987",
+        "android_client_info": {
+          "package_name": "pe.edu.ulima.tasty"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602243080736-rrejo3kg9n65grje3e63s6bkqqgqq33b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1cnFqo7ZcfD9UdaYyfkNRrUA9fleoFrc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:602243080736:android:e06ba0ae39d86328",
+        "android_client_info": {
+          "package_name": "pe.edu.ulima.tastyfinal"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "602243080736-rrejo3kg9n65grje3e63s6bkqqgqq33b.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyA1cnFqo7ZcfD9UdaYyfkNRrUA9fleoFrc"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

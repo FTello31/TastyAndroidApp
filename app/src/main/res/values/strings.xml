@@ -1,0 +1,29 @@
+<resources>
+    <string name="app_name">Tasty</string>
+
+    <string name="action_settings">Configuración</string>
+    <string name="action_search">Buscar</string>
+    <string name="action_carrito">Añadir al carrito</string>
+
+    <string name="item_inicio">Inicio</string>
+    <string name="item_cuenta">Mi Cuenta</string>
+    <string name="item_categorias">Categorías</string>
+    <string name="item_vendedores">Vendedores</string>
+
+    <string name="titulo_ofertas_dia">Ofertas del Día</string>
+    <string name="titulo_vendedores">Lista de Vendedores</string>
+
+    <string name="titulo_tab_comidas">SANDWICH</string>
+    <string name="titulo_tab_varios">VARIOS</string>
+    <string name="titulo_tab_postres">POSTRES</string>
+
+    <string name="titulo_tab_perfil">PERFIL</string>
+    <string name="titulo_tab_tarjetas">SUGERENCIAS</string>
+
+    <string name="texto_no_tarjetas">Envia tu sugerencia al 62485215</string>
+
+    <string name="etiqueta_carrito">Carrito</string>
+
+    <string name="etiqueta_info_usuario">Información del usuario</string>
+
+</resources>

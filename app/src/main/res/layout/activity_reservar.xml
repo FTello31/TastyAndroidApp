@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+
+    android:layout_height="match_parent"
+    android:background="@drawable/geometric">
+
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+
+        android:layout_marginTop="20dp"
+        android:id="@+id/info">
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Croissant jamon y queso"
+            android:textAlignment="center"
+            android:textSize="48sp"
+            android:textColor="@color/window_background"
+            android:textStyle="bold"/>
+
+        <View
+            android:layout_height="2dp"
+            android:layout_width="fill_parent"
+            android:layout_below="@id/info"
+            android:layout_marginTop="10dp"
+
+            android:background="@color/window_background" />
+
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="Rico sandwich de Jamon y Queso"
+            android:textColor="@color/window_background"
+            android:textSize="18sp"
+            android:layout_gravity="center_horizontal" />
+    </LinearLayout>
+
+
+
+    <TextView
+        android:layout_height="wrap_content"
+        android:id="@+id/tviPrecioProducto"
+        android:layout_below="@+id/info"
+        android:textSize="20sp"
+        android:text="Precio: S/. 3.5"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="55dp"
+        android:layout_alignLeft="@+id/info"
+        android:layout_toStartOf="@+id/eteCantidad"
+        android:textColor="#979191"
+        android:layout_width="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_toLeftOf="@+id/eteCantidad" />
+
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/tviCantidadReserva"
+        android:textSize="20sp"
+        android:text="Número de  reservas:"
+        android:textColor="#979191"
+        android:layout_below="@+id/tviPrecioProducto"
+        android:layout_alignLeft="@+id/tviPrecioProducto"
+        android:layout_alignStart="@+id/tviPrecioProducto"
+        android:layout_marginBottom="20dp"/>
+
+    <EditText
+        android:id="@+id/eteCantidad"
+        android:textColor="@color/window_background"
+        android:textColorHint="#979191"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:hint="Cantidad"
+        android:textSize="15dp"
+        android:backgroundTint="#979191"
+        android:layout_alignBottom="@+id/tviCantidadReserva"
+        android:layout_alignRight="@+id/butReservar"
+        android:layout_alignEnd="@+id/butReservar" />
+
+    <ImageView
+        android:id="@+id/iviProductoImagen"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/acroissantjamon"
+        android:layout_marginBottom="40dp"
+        android:layout_alignParentBottom="true"
+        android:layout_marginTop="20dp"
+        android:layout_below="@id/tviCantidadReserva"
+        android:layout_alignLeft="@+id/tviCantidadReserva"
+        android:layout_alignStart="@+id/tviCantidadReserva" />
+
+    <Button
+        android:id="@+id/butReservar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Reservar"
+        android:background="@color/accentColor"
+        android:textColor="@color/window_background"
+        android:layout_marginRight="43dp"
+        android:layout_marginEnd="43dp"
+        android:layout_alignTop="@+id/iviProductoImagen"
+        android:layout_alignParentRight="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="58dp"
+        android:layout_marginLeft="20dp"/>
+
+</RelativeLayout>
